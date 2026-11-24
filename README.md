@@ -14,8 +14,8 @@
   <a href="https://scholar.google.com/citations?user=FVmThvgAAAAJ&hl=vi">
     <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar"/>
   </a>
-  <a href="https://arxiv.org/abs/2611.22043">
-    <img src="https://img.shields.io/badge/arXiv-2611.22043-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv"/>
+<a href="https://arxiv.org/search/?searchtype=author&query=Bui%2C+The+Dung">
+    <img src="https://img.shields.io/badge/arXiv-Author_Page-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv"/>
   </a>
   <a href="mailto:dungbt.research@gmail.com">
     <img src="https://img.shields.io/badge/Email-dungbt.research%40gmail.com-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" style="width:100%; height:auto;" alt="The Dung Bui — Abyssal Logic Banner"/>
+  <img src="./banner.svg?v=3" style="width:100%; height:auto;" alt="The Dung Bui — Abyssal Logic Banner"/>
 </div>
 
 <br/>
@@ -32,10 +32,10 @@
 </div>
 
 <div align="center">
-  <img src="./chain-divider.svg" style="width:100%; height:auto;" alt="Chain Divider"/>
+  <img src="./chain.svg?v=3" style="width:100%; height:auto;" alt="Chain Divider"/>
 </div>
 
-## ◈ Dossier
+## 🔱 Abyssal Dossier
 
 <pre><code>entity:      Bui The Dung (The Dung Bui)
 affiliation: VNU University of Engineering and Technology (VNU-UET)
@@ -44,16 +44,16 @@ lab:         SAT Lab @ VNU-UET
 domain:      SAT / MaxSAT / CP-SAT Encodings for Scheduling Problems
 principle:   "Constraints bind the search space; learned clauses unlock it."</code></pre>
 
-- 🎓 Undergraduate in **Information Systems** at **VNU-UET** (Hanoi, Vietnam).
-- 🔬 Research member at **SAT Lab (VNU-UET)**, formulating **SAT, MaxSAT, and CP-SAT encodings** for NP-hard **scheduling** and combinatorial optimization problems.
+- 🌊 Undergraduate in **Information Systems** at **VNU-UET** (Hanoi, Vietnam), bridging structured data systems with formal combinatorial reasoning.
+- 🔬 Research member at **SAT Lab (VNU-UET)**, formulating **SAT, MaxSAT, and CP-SAT encodings** for NP-hard **scheduling** and optimization problems.
 - 🧪 Dedicated to transparent, reproducible experiments—publishing both working solvers and **negative results** so every dead end sharpens the next formulation.
 - 📬 Reach out via **dungbt.research@gmail.com** or follow publications on **[Google Scholar](https://scholar.google.com/citations?user=FVmThvgAAAAJ&hl=vi)**.
 
 <div align="center">
-  <img src="./chain-divider.svg" style="width:100%; height:auto;" alt="Chain Divider"/>
+  <img src="./chain.svg?v=3" style="width:100%; height:auto;" alt="Chain Divider"/>
 </div>
 
-## ◈ Arsenal & Solvers
+## 🧭 Arsenal & Solvers
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python_(Primary)-0B1320?style=for-the-badge&logo=python&logoColor=38BDF8" />
@@ -68,10 +68,10 @@ principle:   "Constraints bind the search space; learned clauses unlock it."</co
 </div>
 
 <div align="center">
-  <img src="./chain-divider.svg" style="width:100%; height:auto;" alt="Chain Divider"/>
+  <img src="./chain.svg?v=3" style="width:100%; height:auto;" alt="Chain Divider"/>
 </div>
 
-## ◈ Publications & Technical Reports
+## 📜 Publications & Technical Reports
 
 <table>
   <tr>
@@ -89,10 +89,10 @@ principle:   "Constraints bind the search space; learned clauses unlock it."</co
 </table>
 
 <div align="center">
-  <img src="./chain-divider.svg" style="width:100%; height:auto;" alt="Chain Divider"/>
+  <img src="./chain.svg?v=3" style="width:100%; height:auto;" alt="Chain Divider"/>
 </div>
 
-## ◈ Unchained Repositories
+## ⚓ Unchained Repositories
 
 <table>
   <tr>
@@ -128,3 +128,9 @@ principle:   "Constraints bind the search space; learned clauses unlock it."</co
     </td>
   </tr>
 </table>
+
+<br/>
+
+<div align="center">
+  <img src="./abyss-footer.svg?v=1" style="width:100%; height:auto;" alt="Abyssal Logic Footer Banner"/>
+</div>

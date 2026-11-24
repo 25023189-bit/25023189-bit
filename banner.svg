@@ -1,69 +1,69 @@
-xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)"
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Deep Midnight Background -->
+    
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030712"/>
-      <stop offset="50%" stop-color="#0a1628"/>
-      <stop offset="100%" stop-color="#0c2340"/>
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#0a1628" />
+      <stop offset="100%" stop-color="#0c2340" />
     </linearGradient>
 
-    <!-- Accent Gradient -->
+    
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#818cf8"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#22d3ee" />
     </linearGradient>
 
-    <!-- Border Gradient -->
+    
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
-      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.45" />
     </linearGradient>
 
-    <!-- Soft Ambient Glows -->
+    
     <radialGradient id="glowLeft" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="glowRight" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.24"/>
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="glowConflict" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Subtle Coordinate Grid -->
+    
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#38bdf8" stroke-opacity="0.055" stroke-width="1"/>
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#38bdf8" stroke-opacity="0.055" stroke-width="1" />
     </pattern>
 
-    <!-- Arrowhead Marker for Implication Graph -->
+    
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#38bdf8" fill-opacity="0.65"/>
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#38bdf8" fill-opacity="0.65" />
     </marker>
     <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#f43f5e" fill-opacity="0.8"/>
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#f43f5e" fill-opacity="0.8" />
     </marker>
   </defs>
 
-  <!-- Base Canvas -->
-  <rect x="1" y="1" width="898" height="238" rx="14" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="1.2"/>
-  <rect x="1" y="1" width="898" height="238" rx="14" fill="url(#grid)"/>
+  
+  <rect x="1" y="1" width="898" height="238" rx="14" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="1.2" />
+  <rect x="1" y="1" width="898" height="238" rx="14" fill="url(#grid)" />
 
-  <!-- Soft Ambient Glows -->
-  <circle cx="135" cy="115" r="150" fill="url(#glowLeft)"/>
-  <circle cx="775" cy="125" r="155" fill="url(#glowRight)"/>
+  
+  <circle cx="135" cy="115" r="150" fill="url(#glowLeft)" />
+  <circle cx="775" cy="125" r="155" fill="url(#glowRight)" />
 
-  <!-- Subtle HUD Corner Brackets -->
-  <path d="M 16 32 L 16 16 L 32 16" fill="none" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5"/>
-  <path d="M 868 16 L 884 16 L 884 32" fill="none" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="1.5"/>
-  <path d="M 16 208 L 16 224 L 32 224" fill="none" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5"/>
-  <path d="M 868 224 L 884 224 L 884 208" fill="none" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="1.5"/>
+  
+  <path d="M 16 32 L 16 16 L 32 16" fill="none" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5" />
+  <path d="M 868 16 L 884 16 L 884 32" fill="none" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="1.5" />
+  <path d="M 16 208 L 16 224 L 32 224" fill="none" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5" />
+  <path d="M 868 224 L 884 224 L 884 208" fill="none" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="1.5" />
 
-  <!-- Top Technical Micro-Labels -->
+  
   <text x="34" y="34" fill="#38bdf8" fill-opacity="0.6" font-family="Consolas, monospace" font-size="11" letter-spacing="1">
     DISCRETE MATH // SAT · MAXSAT · CDCL
   </text>
@@ -71,132 +71,130 @@ xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)"
     INFO SYSTEMS // SQL · DATA · ARCH
   </text>
 
-  <!-- ========================================================= -->
-  <!-- LEFT VISUAL: SAT IMPLICATION & CONFLICT GRAPH (CDCL)      -->
-  <!-- ========================================================= -->
+  
+  
+  
   <g opacity="0.92">
-    <!-- Directed Edges -->
-    <line x1="69" y1="86" x2="122" y2="71" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.4" marker-end="url(#arrow)"/>
-    <line x1="68" y1="98" x2="117" y2="126" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.4" marker-end="url(#arrow)"/>
-    <line x1="72" y1="159" x2="117" y2="140" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.4" marker-end="url(#arrow)"/>
-    <line x1="150" y1="73" x2="181" y2="96" stroke="#f43f5e" stroke-opacity="0.7" stroke-width="1.4" marker-end="url(#arrowRed)"/>
-    <line x1="146" y1="127" x2="180" y2="110" stroke="#f43f5e" stroke-opacity="0.7" stroke-width="1.4" marker-end="url(#arrowRed)"/>
+    
+    <line x1="69" y1="86" x2="122" y2="71" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.4" marker-end="url(#arrow)" />
+    <line x1="68" y1="98" x2="117" y2="126" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.4" marker-end="url(#arrow)" />
+    <line x1="72" y1="159" x2="117" y2="140" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.4" marker-end="url(#arrow)" />
+    <line x1="150" y1="73" x2="181" y2="96" stroke="#f43f5e" stroke-opacity="0.7" stroke-width="1.4" marker-end="url(#arrowRed)" />
+    <line x1="146" y1="127" x2="180" y2="110" stroke="#f43f5e" stroke-opacity="0.7" stroke-width="1.4" marker-end="url(#arrowRed)" />
 
-    <!-- Learned Clause Back-Arc (Animated Dash) -->
+    
     <path d="M 192 120 Q 130 198 62 178" fill="none" stroke="#818cf8" stroke-opacity="0.65" stroke-width="1.3" stroke-dasharray="4 4">
-      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dashoffset" from="16" to="0" dur="2.5s" repeatCount="indefinite" />
     </path>
 
-    <!-- Conflict Node Glow -->
+    
     <circle cx="192" cy="103" r="24" fill="url(#glowConflict)">
-      <animate attributeName="r" values="20;27;20" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="20;27;20" dur="3s" repeatCount="indefinite" />
     </circle>
 
-    <!-- Graph Nodes -->
-    <circle cx="56" cy="91" r="14" fill="#0b192f" stroke="#38bdf8" stroke-width="1.5"/>
+    
+    <circle cx="56" cy="91" r="14" fill="#0b192f" stroke="#38bdf8" stroke-width="1.5" />
     <text x="56" y="95" text-anchor="middle" fill="#e0f2fe" font-family="Consolas, monospace" font-size="11">x₁</text>
 
-    <circle cx="137" cy="67" r="14" fill="#0b192f" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="137" cy="67" r="14" fill="#0b192f" stroke="#38bdf8" stroke-width="1.5" />
     <text x="137" y="71" text-anchor="middle" fill="#e0f2fe" font-family="Consolas, monospace" font-size="11">¬x₂</text>
 
-    <circle cx="132" cy="134" r="14" fill="#0b192f" stroke="#22d3ee" stroke-width="1.5"/>
+    <circle cx="132" cy="134" r="14" fill="#0b192f" stroke="#22d3ee" stroke-width="1.5" />
     <text x="132" y="138" text-anchor="middle" fill="#cffafe" font-family="Consolas, monospace" font-size="11">x₃</text>
 
-    <circle cx="58" cy="165" r="14" fill="#0b192f" stroke="#818cf8" stroke-width="1.5"/>
+    <circle cx="58" cy="165" r="14" fill="#0b192f" stroke="#818cf8" stroke-width="1.5" />
     <text x="58" y="169" text-anchor="middle" fill="#e0e7ff" font-family="Consolas, monospace" font-size="11">x₄</text>
 
-    <circle cx="192" cy="103" r="14" fill="#2a0a18" stroke="#f43f5e" stroke-width="1.7"/>
+    <circle cx="192" cy="103" r="14" fill="#2a0a18" stroke="#f43f5e" stroke-width="1.7" />
     <text x="192" y="108" text-anchor="middle" fill="#fda4af" font-family="Consolas, monospace" font-size="13" font-weight="bold">⊥</text>
 
-    <!-- Formula Caption -->
+    
     <text x="34" y="205" fill="#7dd3fc" fill-opacity="0.55" font-family="Consolas, monospace" font-size="10.5">
       (¬x₁ ∨ ¬x₂) ∧ (¬x₃ ∨ x₂) ⊢ ⊥
     </text>
   </g>
 
-  <!-- ========================================================= -->
-  <!-- RIGHT VISUAL: INFORMATION SYSTEMS (DB & DATAFLOW)         -->
-  <!-- ========================================================= -->
+  
+  
+  
   <g opacity="0.92">
-    <!-- Animated Dataflow Paths -->
+    
     <path d="M 764 82 L 782 82 L 782 102 L 800 102" fill="none" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="1.5" stroke-dasharray="5 4">
-      <animate attributeName="stroke-dashoffset" from="18" to="0" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dashoffset" from="18" to="0" dur="2s" repeatCount="indefinite" />
     </path>
     <path d="M 764 152 L 782 152 L 782 132 L 800 132" fill="none" stroke="#818cf8" stroke-opacity="0.65" stroke-width="1.5" stroke-dasharray="5 4">
-      <animate attributeName="stroke-dashoffset" from="0" to="18" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dashoffset" from="0" to="18" dur="2s" repeatCount="indefinite" />
     </path>
 
-    <!-- System Node 1: Query / API -->
-    <rect x="718" y="66" width="46" height="32" rx="6" fill="#0b192f" stroke="#38bdf8" stroke-width="1.4"/>
+    
+    <rect x="718" y="66" width="46" height="32" rx="6" fill="#0b192f" stroke="#38bdf8" stroke-width="1.4" />
     <text x="741" y="80" text-anchor="middle" fill="#7dd3fc" font-family="Consolas, monospace" font-size="9.5" font-weight="bold">SQL</text>
-    <line x1="726" y1="88" x2="756" y2="88" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2"/>
+    <line x1="726" y1="88" x2="756" y2="88" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2" />
 
-    <!-- System Node 2: Logic / Model -->
-    <rect x="718" y="136" width="46" height="32" rx="6" fill="#0b192f" stroke="#818cf8" stroke-width="1.4"/>
+    
+    <rect x="718" y="136" width="46" height="32" rx="6" fill="#0b192f" stroke="#818cf8" stroke-width="1.4" />
     <text x="741" y="150" text-anchor="middle" fill="#c7d2fe" font-family="Consolas, monospace" font-size="9.5" font-weight="bold">SYS</text>
-    <line x1="726" y1="158" x2="756" y2="158" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.2"/>
+    <line x1="726" y1="158" x2="756" y2="158" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.2" />
 
-    <!-- Database Cylinder Stack -->
+    
     <g transform="translate(802, 72)">
-      <!-- Body -->
-      <path d="M 0 12 L 0 74 A 32 11 0 0 0 64 74 L 64 12 Z" fill="#0b192f" stroke="#22d3ee" stroke-width="1.5"/>
-      <!-- Mid Dividers -->
-      <path d="M 0 33 A 32 11 0 0 0 64 33" fill="none" stroke="#22d3ee" stroke-opacity="0.65" stroke-width="1.3"/>
-      <path d="M 0 54 A 32 11 0 0 0 64 54" fill="none" stroke="#22d3ee" stroke-opacity="0.65" stroke-width="1.3"/>
-      <!-- Top Cap -->
-      <ellipse cx="32" cy="12" rx="32" ry="11" fill="#0e2a47" stroke="#22d3ee" stroke-width="1.5"/>
-      <!-- Active LED Dots -->
+      
+      <path d="M 0 12 L 0 74 A 32 11 0 0 0 64 74 L 64 12 Z" fill="#0b192f" stroke="#22d3ee" stroke-width="1.5" />
+      
+      <path d="M 0 33 A 32 11 0 0 0 64 33" fill="none" stroke="#22d3ee" stroke-opacity="0.65" stroke-width="1.3" />
+      <path d="M 0 54 A 32 11 0 0 0 64 54" fill="none" stroke="#22d3ee" stroke-opacity="0.65" stroke-width="1.3" />
+      
+      <ellipse cx="32" cy="12" rx="32" ry="11" fill="#0e2a47" stroke="#22d3ee" stroke-width="1.5" />
+      
       <circle cx="13" cy="28" r="2.2" fill="#38bdf8">
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite" />
       </circle>
       <circle cx="13" cy="49" r="2.2" fill="#818cf8">
-        <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
       </circle>
       <circle cx="13" cy="70" r="2.2" fill="#22d3ee">
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" />
       </circle>
     </g>
 
-    <!-- IS Caption -->
+    
     <text x="866" y="205" text-anchor="end" fill="#a5b4fc" fill-opacity="0.58" font-family="Consolas, monospace" font-size="10.5">
       SCHEMA ⇄ SOLVER PIPELINE
     </text>
   </g>
 
-  <!-- ========================================================= -->
-  <!-- CENTER HERO TYPOGRAPHY                                    -->
-  <!-- ========================================================= -->
+  
+  
+  
   <text x="450" y="108" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Ubuntu, -apple-system, sans-serif" font-size="44" font-weight="800" letter-spacing="2">
     THE DUNG BUI
   </text>
 
-  <!-- Gradient Divider -->
-  <rect x="315" y="122" width="270" height="3" rx="1.5" fill="url(#accent)"/>
+  
+  <rect x="315" y="122" width="270" height="3" rx="1.5" fill="url(#accent)" />
 
-  <!-- Subtitle -->
+  
   <text x="450" y="150" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, Ubuntu, -apple-system, sans-serif" font-size="13.5" font-weight="500" letter-spacing="0.3">
     SAT &amp; Scheduling Researcher  •  Information Systems @ VNU-UET
   </text>
 
-  <!-- Pill Tag -->
-  <rect x="358" y="166" width="184" height="22" rx="11" fill="#0f2942" fill-opacity="0.85" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1"/>
+  
+  <rect x="358" y="166" width="184" height="22" rx="11" fill="#0f2942" fill-opacity="0.85" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1" />
   <text x="450" y="180.5" text-anchor="middle" fill="#7dd3fc" font-family="Consolas, monospace" font-size="10.5" letter-spacing="0.8">
     SAT LAB • VNU-UET
   </text>
 
-  <!-- ========================================================= -->
-  <!-- BOTTOM SUBTLE ANIMATED WAVES                              -->
-  <!-- ========================================================= -->
+  
+  
+  
   <path fill="#38bdf8" fill-opacity="0.10" d="M0,214 Q150,200 300,214 T600,214 T900,214 L900,240 L0,240 Z">
-    <animate attributeName="d" dur="7s" repeatCount="indefinite"
-      values="M0,214 Q150,200 300,214 T600,214 T900,214 L900,240 L0,240 Z;
+    <animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0,214 Q150,200 300,214 T600,214 T900,214 L900,240 L0,240 Z;
               M0,214 Q150,226 300,214 T600,214 T900,214 L900,240 L0,240 Z;
-              M0,214 Q150,200 300,214 T600,214 T900,214 L900,240 L0,240 Z"/>
+              M0,214 Q150,200 300,214 T600,214 T900,214 L900,240 L0,240 Z" />
   </path>
   <path fill="#0ea5e9" fill-opacity="0.14" d="M0,223 Q225,234 450,221 T900,223 L900,240 L0,240 Z">
-    <animate attributeName="d" dur="5s" repeatCount="indefinite"
-      values="M0,223 Q225,234 450,221 T900,223 L900,240 L0,240 Z;
+    <animate attributeName="d" dur="5s" repeatCount="indefinite" values="M0,223 Q225,234 450,221 T900,223 L900,240 L0,240 Z;
               M0,223 Q225,212 450,226 T900,223 L900,240 L0,240 Z;
-              M0,223 Q225,234 450,221 T900,223 L900,240 L0,240 Z"/>
+              M0,223 Q225,234 450,221 T900,223 L900,240 L0,240 Z" />
   </path>
 </svg>

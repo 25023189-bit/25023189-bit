@@ -14,7 +14,7 @@
   <a href="https://scholar.google.com/citations?user=FVmThvgAAAAJ&hl=vi">
     <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar"/>
   </a>
-<a href="https://arxiv.org/search/?searchtype=author&query=Bui%2C+The+Dung">
+  <a href="https://arxiv.org/search/?searchtype=author&query=Bui%2C+The+Dung">
     <img src="https://img.shields.io/badge/arXiv-Author_Page-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv"/>
   </a>
   <a href="mailto:dungbt.research@gmail.com">
@@ -50,12 +50,6 @@ motto:       "Every conflict is just a learned clause pointing closer to the sol
 ---
 
 ## 🛠️ Tech Stack & Solvers
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=py,mysql,latex,java,maven,git,vscode&theme=dark" alt="Core Skills"/>
-</div>
-
-<br/>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python_(Primary)-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -126,17 +120,3 @@ motto:       "Every conflict is just a learned clause pointing closer to the sol
     </td>
   </tr>
 </table>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=25023189-bit&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=25023189-bit&theme=tokyo-night&bg_color=0D1117&color=38BDF8&line=38BDF8&point=E0F7FA&area=true&hide_border=true" width="95%" alt="Activity Graph"/>
-</div>

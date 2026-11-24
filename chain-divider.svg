@@ -1,0 +1,48 @@
+<svg width="900" height="28" viewBox="0 0 900 28" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fadeL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64748b" stop-opacity="0" />
+      <stop offset="100%" stop-color="#94a3b8" stop-opacity="0.75" />
+    </linearGradient>
+    <linearGradient id="fadeR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#64748b" stop-opacity="0" />
+    </linearGradient>
+    <g id="sharpLink">
+      <polygon points="0,11 3.5,8 14.5,8 18,11 18,17 14.5,20 3.5,20 0,17" fill="#07111f" stroke="#94a3b8" stroke-width="1.5" />
+      <line x1="14" y1="14" x2="23" y2="14" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" />
+    </g>
+  </defs>
+
+  
+  <line x1="40" y1="14" x2="256" y2="14" stroke="url(#fadeL)" stroke-width="1.4" />
+  <line x1="644" y1="14" x2="860" y2="14" stroke="url(#fadeR)" stroke-width="1.4" />
+
+  
+  <use href="#sharpLink" x="260" y="0" opacity="0.25" />
+  <use href="#sharpLink" x="282" y="0" opacity="0.4" />
+  <use href="#sharpLink" x="304" y="0" opacity="0.55" />
+  <use href="#sharpLink" x="326" y="0" opacity="0.7" />
+  <use href="#sharpLink" x="348" y="0" opacity="0.82" />
+  <use href="#sharpLink" x="370" y="0" opacity="0.92" />
+  <use href="#sharpLink" x="392" y="0" opacity="1" />
+
+  
+  <use href="#sharpLink" x="490" y="0" opacity="1" />
+  <use href="#sharpLink" x="512" y="0" opacity="0.92" />
+  <use href="#sharpLink" x="534" y="0" opacity="0.82" />
+  <use href="#sharpLink" x="556" y="0" opacity="0.7" />
+  <use href="#sharpLink" x="578" y="0" opacity="0.55" />
+  <use href="#sharpLink" x="600" y="0" opacity="0.4" />
+  <use href="#sharpLink" x="622" y="0" opacity="0.25" />
+
+  
+  <g transform="translate(450, 14)">
+    <path d="M -25,-6 L -18,0 L -25,6" fill="none" stroke="#38bdf8" stroke-width="1.4" stroke-linecap="round" />
+    <path d="M 25,-6 L 18,0 L 25,6" fill="none" stroke="#38bdf8" stroke-width="1.4" stroke-linecap="round" />
+    <polygon points="0,-9 10,0 0,9 -10,0" fill="#061224" stroke="#cbd5e1" stroke-width="1.4" />
+    <polygon points="0,-4.5 5,0 0,4.5 -5,0" fill="#f43f5e">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="3s" repeatCount="indefinite" />
+    </polygon>
+  </g>
+</svg>

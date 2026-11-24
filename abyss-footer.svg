@@ -1,0 +1,144 @@
+<svg width="900" height="205" viewBox="0 0 900 205" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02060e" />
+      <stop offset="50%" stop-color="#061428" />
+      <stop offset="100%" stop-color="#081d36" />
+    </linearGradient>
+    <linearGradient id="steelH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="50%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="abyssCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#f43f5e" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#02060e" stop-opacity="0" />
+    </radialGradient>
+
+    
+    <g id="hLink">
+      <polygon points="0,-5 4.5,-8.5 17.5,-8.5 22,-5 22,5 17.5,8.5 4.5,8.5 0,5" fill="#07111f" stroke="url(#steelH)" stroke-width="1.7" />
+      <rect x="17" y="-2" width="14" height="4" rx="1.2" fill="#cbd5e1" stroke="#020617" stroke-width="0.8" />
+    </g>
+  </defs>
+
+  
+  <rect x="1" y="1" width="898" height="203" rx="14" fill="url(#footerBg)" stroke="#38bdf8" stroke-opacity="0.32" stroke-width="1.2" />
+  <ellipse cx="450" cy="102" rx="340" ry="95" fill="url(#abyssCore)" />
+
+  
+  <g fill="none" stroke="#38bdf8" stroke-opacity="0.14" stroke-width="1">
+    <path d="M 0,165 L 115,132 L 210,154 L 310,138 L 450,152 L 590,138 L 690,154 L 785,132 L 900,165" />
+    <circle cx="450" cy="102" r="145" stroke-dasharray="4 8" />
+    <circle cx="450" cy="102" r="195" stroke-dasharray="2 10" />
+  </g>
+
+  
+  <g opacity="0.85">
+    <use href="#hLink" x="12" y="24" />
+    <use href="#hLink" x="40" y="24" />
+    <use href="#hLink" x="68" y="24" />
+    <use href="#hLink" x="96" y="24" />
+    <use href="#hLink" x="124" y="24" />
+    <circle cx="158" cy="24" r="4" fill="#061224" stroke="#f43f5e" stroke-width="1.5" />
+
+    <use href="#hLink" x="866" y="24" transform="scale(-1,1) translate(-1754,0)" />
+    <use href="#hLink" x="838" y="24" transform="scale(-1,1) translate(-1698,0)" />
+    <use href="#hLink" x="810" y="24" transform="scale(-1,1) translate(-1642,0)" />
+    <use href="#hLink" x="782" y="24" transform="scale(-1,1) translate(-1586,0)" />
+    <use href="#hLink" x="754" y="24" transform="scale(-1,1) translate(-1530,0)" />
+    <circle cx="742" cy="24" r="4" fill="#061224" stroke="#f43f5e" stroke-width="1.5" />
+  </g>
+
+  
+  
+  
+  <g transform="translate(36, 54)">
+    <rect x="0" y="0" width="245" height="106" rx="8" fill="#051020" fill-opacity="0.85" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
+    <text x="14" y="22" fill="#38bdf8" font-family="Consolas, monospace" font-size="10.5" font-weight="bold" letter-spacing="1">
+      ◈ SAT · MAXSAT · CDCL
+    </text>
+    <line x1="14" y1="30" x2="231" y2="30" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="1" />
+    <text x="14" y="49" fill="#cbd5e1" font-family="Consolas, monospace" font-size="10">
+      F = (x₁ ∨ ¬x₂) ∧ (x₂ ∨ x₃)
+    </text>
+    <text x="14" y="67" fill="#94a3b8" font-family="Consolas, monospace" font-size="10">
+      Conflict ⊥ ➔ Learned Clause
+    </text>
+    <text x="14" y="88" fill="#7dd3fc" font-family="Consolas, monospace" font-size="9.5">
+      ● PySAT  ● Hermax  ● CP-SAT
+    </text>
+  </g>
+
+  
+  
+  
+  <g transform="translate(619, 54)">
+    <rect x="0" y="0" width="245" height="106" rx="8" fill="#051020" fill-opacity="0.85" stroke="#22d3ee" stroke-opacity="0.3" stroke-width="1" />
+    <text x="231" y="22" text-anchor="end" fill="#22d3ee" font-family="Consolas, monospace" font-size="10.5" font-weight="bold" letter-spacing="1">
+      INFO SYSTEMS · DATA ◈
+    </text>
+    <line x1="14" y1="30" x2="231" y2="30" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="1" />
+    <text x="231" y="49" text-anchor="end" fill="#cbd5e1" font-family="Consolas, monospace" font-size="10">
+      SCHEMA ⇄ SOLVER PIPELINE
+    </text>
+    <text x="231" y="67" text-anchor="end" fill="#94a3b8" font-family="Consolas, monospace" font-size="10">
+      Relational · Clean · Reproducible
+    </text>
+    <text x="231" y="88" text-anchor="end" fill="#a5f3fc" font-family="Consolas, monospace" font-size="9.5">
+      Python ● SQL ● LaTeX ● Java
+    </text>
+  </g>
+
+  
+  
+  
+  <g>
+    
+    <g opacity="0.35">
+      <animateTransform attributeName="transform" type="rotate" from="0 450 102" to="360 450 102" dur="65s" repeatCount="indefinite" />
+      <circle cx="450" cy="102" r="76" fill="none" stroke="#38bdf8" stroke-width="1.1" stroke-dasharray="10 5 2 5" />
+      <polygon points="450,20 454,30 446,30" fill="#38bdf8" />
+      <polygon points="450,184 454,174 446,174" fill="#f43f5e" />
+    </g>
+
+    
+    <path d="M 450,42 L 450,62 M 443,47 L 443,54 Q 450,57 457,54 L 457,47" fill="none" stroke="#7dd3fc" stroke-width="1.3" stroke-linecap="round" />
+
+    <text x="450" y="84" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" font-weight="700" letter-spacing="2">
+      ABYSSAL LOGIC
+    </text>
+    <line x1="330" y1="95" x2="570" y2="95" stroke="url(#beam)" stroke-width="1.4" />
+    <polygon points="450,90 455,95 450,100 445,95" fill="#f43f5e" />
+
+    <text x="450" y="116" text-anchor="middle" fill="#cbd5e1" font-family="Consolas, monospace" font-size="10.5" letter-spacing="0.8">
+      "FROM DEEP CONSTRAINTS EMERGES OPTIMAL ORDER"
+    </text>
+    <text x="450" y="137" text-anchor="middle" fill="#64748b" font-family="Consolas, monospace" font-size="9.5" letter-spacing="1.5">
+      VNU-UET · SAT LAB · HANOI
+    </text>
+  </g>
+
+  
+  <g fill="#7dd3fc" opacity="0.65">
+    <path d="M 0,0 L 8,-2.5 L 6,0 L 8,2.5 Z">
+      <animateMotion dur="14s" repeatCount="indefinite" path="M 310,168 Q 450,152 590,168" />
+    </path>
+    <path d="M 0,0 L 6,-2 L 4.5,0 L 6,2 Z" fill="#22d3ee">
+      <animateMotion dur="17s" repeatCount="indefinite" path="M 595,175 Q 450,185 305,172" />
+    </path>
+  </g>
+
+  
+  <path fill="#38bdf8" fill-opacity="0.09" d="M0,182 Q150,172 300,182 T600,182 T900,182 L900,205 L0,205 Z">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0,182 Q150,172 300,182 T600,182 T900,182 L900,205 L0,205 Z;
+              M0,182 Q150,192 300,182 T600,182 T900,182 L900,205 L0,205 Z;
+              M0,182 Q150,172 300,182 T600,182 T900,182 L900,205 L0,205 Z" />
+  </path>
+</svg>

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" width="100%" alt="The Dung Bui Banner"/>
+  <img src="./banner.svg" width="900" style="width:100%; max-width:900px; height:auto;" alt="The Dung Bui Banner"/>
 </div>
 
 <br/>

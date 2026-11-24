@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="./banner.svg?v=5" style="width:100%; height:auto;" alt="The Dung Bui — Abyssal Logic Banner"/>
+  <img src="./banner.svg?v=6" style="width:100%; height:auto;" alt="The Dung Bui — Abyssal Logic Banner"/>
 </div>
 
 <br/>
 
 <div align="center">
   <a href="https://github.com/25023189-bit">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3200&pause=1100&color=7DD3FC&center=true&vCenter=true&width=760&lines=Unsealing+Abyssal+Constraints+via+SAT+%2F+MaxSAT;Research+Navigator+%40+SAT+Lab+(VNU-UET);Information+Systems+Undergraduate+%40+VNU-UET;Every+Conflict+Becomes+a+Learned+Clause" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3200&pause=1100&color=7DD3FC&center=true&vCenter=true&width=760&lines=Unsealing+Hard+Constraints+via+SAT+%2F+MaxSAT;Research+Member+%40+SAT+Lab+(VNU-UET);Information+Systems+Undergraduate+%40+VNU-UET;Every+Conflict+Becomes+a+Learned+Clause" alt="Typing SVG" />
   </a>
 </div>
 
@@ -21,35 +21,31 @@
 <div align="center">
   <blockquote>
     <em>“The impediment to action advances action. What stands in the way becomes the way.”</em><br/>
-    <sub>— <b>Marcus Aurelius</b>, <i>Meditations</i> (V.20) · <i>Deep-Current Axiom</i></sub>
+    <sub>— <b>Marcus Aurelius</b>, <i>Meditations</i> (V.20)</sub>
   </blockquote>
 </div>
 
-<div align="center">
-  <img src="./chain-divider.svg?v=5" style="width:100%; height:auto;" alt="Chain Divider"/>
-</div>
-
-## 🔱 𝑨𝒃𝒚𝒔𝒔𝒂𝒍 𝑫𝒐𝒔𝒔𝒊𝒆𝒓 <sub><sup>`// SONAR_LOG · DEPTH 10,924m`</sup></sub>
-
-<pre><code>╔══════════════════════════════════════════════════════════════════════════════╗
-║  VESSEL // ENTITY   :  Bui The Dung (The Dung Bui)                           ║
-║  HARBOR // INST.    :  VNU University of Engineering and Technology (UET)    ║
-║  CHART  // MAJOR    :  Information Systems (FIT · UET · VNU)                 ║
-║  TRENCH // LAB      :  SAT Lab @ VNU-UET                                     ║
-║  CURRENT// FOCUS    :  SAT · MaxSAT · CP-SAT Encodings for Scheduling        ║
-║  AXIOM  // MOTTO    :  "Heavy chains bind the abyss; learned clauses break." ║
-╚══════════════════════════════════════════════════════════════════════════════╝</code></pre>
-
-- 🌊 **Navigator in Information Systems** at **VNU-UET** *(Hanoi, Vietnam)* — charting the waters between structured relational data architectures and formal combinatorial reasoning.
-- 🔬 **Research Member at SAT Lab (VNU-UET)** — forging <kbd>SAT</kbd>, <kbd>MaxSAT</kbd>, and <kbd>CP-SAT</kbd> encodings to unseal NP-hard **scheduling** and optimization problems.
-- 🧭 **Open-Ocean Reproducibility** — documenting both working solvers and **negative results** as sunken beacons so every experiment sharpens the next formulation.
-- 📬 **Signal & Coordinates** — reach out via **[dungbt.research@gmail.com](mailto:dungbt.research@gmail.com)** or explore indexed works on **[Google Scholar](https://scholar.google.com/citations?user=FVmThvgAAAAJ&hl=vi)**.
+<br/>
 
 <div align="center">
-  <img src="./chain-divider.svg?v=5" style="width:100%; height:auto;" alt="Chain Divider"/>
+  <img src="./chain-divider.svg?v=6" style="width:100%; height:auto;" alt="Chain Divider"/>
 </div>
 
-## 🧭 𝑨𝒓𝒔𝒆𝒏𝒂𝒍 & 𝑺𝒐𝒍𝒗𝒆𝒓𝒔 <sub><sup>`// FORGED_INSTRUMENTS`</sup></sub>
+## 🔱 About & Abyssal Dossier
+
+<pre><code>name:        Bui The Dung (The Dung Bui)
+affiliation: VNU University of Engineering and Technology (VNU-UET)
+major:       Information Systems (FIT · UET · VNU)
+lab:         SAT Lab @ VNU-UET
+focus:       SAT · MaxSAT · CP-SAT Encodings for Scheduling Problems
+motto:       "Heavy chains bind the search space; learned clauses unlock it."</code></pre>
+
+- 🌊 **Information Systems Undergraduate** at **VNU-UET** *(Hanoi, Vietnam)* — bridging structured data systems with formal combinatorial reasoning.
+- 🔬 **Research Member at SAT Lab (VNU-UET)** — designing <kbd>SAT</kbd>, <kbd>MaxSAT</kbd>, and <kbd>CP-SAT</kbd> encodings for NP-hard **scheduling** and optimization problems.
+- 🧪 **Transparent & Reproducible Research** — sharing both working solvers and **negative results** so every experiment sharpens the next formulation.
+- 📬 **Contact** — reach out via **[dungbt.research@gmail.com](mailto:dungbt.research@gmail.com)** or view indexed works on **[Google Scholar](https://scholar.google.com/citations?user=FVmThvgAAAAJ&hl=vi)**.
+
+### 🧭 Tech Stack & Solvers
 
 <div align="center">
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python_(Primary)-0B1320?style=for-the-badge&logo=python&logoColor=38BDF8" alt="Python"/></a>
@@ -64,16 +60,18 @@
   <a href="https://github.com/FlorentAvellaneda/EvalMaxSAT"><img src="https://img.shields.io/badge/EvalMaxSAT-101B2D?style=for-the-badge&logoColor=F43F5E" alt="EvalMaxSAT"/></a>
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="./chain-divider.svg?v=5" style="width:100%; height:auto;" alt="Chain Divider"/>
+  <img src="./transition-divider.svg?v=1" style="width:100%; height:auto;" alt="Transition to Warm Currents"/>
 </div>
 
-## 📜 𝑷𝒖𝒃𝒍𝒊𝒄𝒂𝒕𝒊𝒐𝒏𝒔 & 𝑻𝒆𝒄𝒉𝒏𝒊𝒄𝒂𝒍 𝑹𝒆𝒑𝒐𝒓𝒕𝒔 <sub><sup>`// CHARTED_ARCHIVES`</sup></sub>
+## 📜 Publications & Technical Reports
 
 <table>
   <tr>
     <td>
-      <b>◈ A Hybrid Exact–Heuristic Solver for the Integrated Passenger and Parcel Transportation Problem</b><br/>
+      <b>A Hybrid Exact–Heuristic Solver for the Integrated Passenger and Parcel Transportation Problem</b><br/>
       <i>The Dung Bui, Ha Thu Nguyen</i> — Technical Report, <b>SOICT 2026 Student Contest</b> (2026)<br/><br/>
       <a href="https://arxiv.org/abs/2611.22043"><img src="https://img.shields.io/badge/arXiv-2611.22043-9F1239?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv Paper"/></a>
       <a href="https://github.com/25023189-bit/Integrated-Passenger-and-Parcel-Transportation-SOICT-2026"><img src="https://img.shields.io/badge/Code-Repository-0F172A?style=flat-square&logo=github&logoColor=38BDF8" alt="Source Code"/></a>
@@ -81,11 +79,7 @@
   </tr>
 </table>
 
-<div align="center">
-  <img src="./chain-divider.svg?v=5" style="width:100%; height:auto;" alt="Chain Divider"/>
-</div>
-
-## ⚓ 𝑼𝒏𝒄𝒉𝒂𝒊𝒏𝒆𝒅 𝑹𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒊𝒆𝒔 <sub><sup>`// RELEASED_FROM_THE_DEEP`</sup></sub>
+## ⚓ Featured Projects
 
 <table>
   <tr>
@@ -125,5 +119,5 @@
 <br/>
 
 <div align="center">
-  <img src="./abyss-footer.svg?v=3" style="width:100%; height:auto;" alt="Abyssal Logic Footer Banner"/>
+  <img src="./abyss-footer.svg?v=4" style="width:100%; height:auto;" alt="Deep Waters, Warm Currents Footer Banner"/>
 </div>

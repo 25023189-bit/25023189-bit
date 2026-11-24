@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg?v=6" style="width:100%; height:auto;" alt="The Dung Bui — Abyssal Logic Banner"/>
+  <img src="./banner.svg?v=7" style="width:100%; height:auto;" alt="The Dung Bui — Abyssal Logic Banner"/>
 </div>
 
 <br/>
@@ -63,7 +63,7 @@ motto:       "Heavy chains bind the search space; learned clauses unlock it."</c
 <br/>
 
 <div align="center">
-  <img src="./transition-divider.svg?v=1" style="width:100%; height:auto;" alt="Transition to Warm Currents"/>
+  <img src="./transition-divider.svg?v=2" style="width:100%; height:auto;" alt="Transition to Warm Currents"/>
 </div>
 
 ## 📜 Publications & Technical Reports
@@ -119,5 +119,5 @@ motto:       "Heavy chains bind the search space; learned clauses unlock it."</c
 <br/>
 
 <div align="center">
-  <img src="./abyss-footer.svg?v=4" style="width:100%; height:auto;" alt="Deep Waters, Warm Currents Footer Banner"/>
+  <img src="./abyss-footer.svg?v=6" style="width:100%; height:auto;" alt="Deep Waters, Warm Currents Footer Banner"/>
 </div>

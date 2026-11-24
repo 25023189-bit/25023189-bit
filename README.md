@@ -79,7 +79,7 @@ motto:       "Heavy chains bind the search space; learned clauses unlock it."</c
   </tr>
 </table>
 
-## ⚓ Featured Projects
+## 🏜️ Featured Projects
 
 <table>
   <tr>

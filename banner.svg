@@ -1,10 +1,10 @@
-<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="270" viewBox="0 0 900 270" xmlns="http://www.w3.org/2000/svg">
   <defs>
     
     <linearGradient id="abyssBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#02050c" />
-      <stop offset="50%" stop-color="#061224" />
-      <stop offset="100%" stop-color="#091d36" />
+      <stop offset="50%" stop-color="#061326" />
+      <stop offset="100%" stop-color="#09203a" />
     </linearGradient>
 
     
@@ -36,14 +36,14 @@
     </linearGradient>
     <linearGradient id="frameBorder" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#64748b" stop-opacity="0.55" />
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.4" />
       <stop offset="100%" stop-color="#f43f5e" stop-opacity="0.45" />
     </linearGradient>
 
     
     <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22" />
-      <stop offset="55%" stop-color="#0ea5e9" stop-opacity="0.06" />
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.24" />
+      <stop offset="55%" stop-color="#0ea5e9" stop-opacity="0.07" />
       <stop offset="100%" stop-color="#02050c" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="crimsonSpark" cx="50%" cy="50%" r="50%">
@@ -55,6 +55,14 @@
       <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.45" />
       <stop offset="100%" stop-color="#f43f5e" stop-opacity="0" />
     </radialGradient>
+
+    
+    <marker id="satArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#38bdf8" fill-opacity="0.7" />
+    </marker>
+    <marker id="conflictArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#f43f5e" fill-opacity="0.8" />
+    </marker>
 
     
     <pattern id="abyssGrid" width="32" height="32" patternUnits="userSpaceOnUse">
@@ -75,20 +83,16 @@
       <use href="#chain-link" x="68" y="0" />
       <use href="#chain-link" x="102" y="0" />
       <use href="#chain-link" x="136" y="0" />
-      
       <g transform="translate(170, 0)">
         <circle cx="14" cy="0" r="22" fill="url(#crimsonSpark)">
           <animate attributeName="opacity" values="0.45;0.95;0.45" dur="2.6s" repeatCount="indefinite" />
         </circle>
-        
         <path d="M 0,-6 L 6,-10 L 17,-10 L 14,-4 L 6,-4 Z" fill="#0b1829" stroke="#cbd5e1" stroke-width="1.6">
           <animateTransform attributeName="transform" type="translate" values="0,0; 2,-2.5; 0,0" dur="3.4s" repeatCount="indefinite" />
         </path>
-        
         <path d="M 0,6 L 6,10 L 16,10 L 13,4 L 6,4 Z" fill="#0b1829" stroke="#cbd5e1" stroke-width="1.6">
           <animateTransform attributeName="transform" type="translate" values="0,0; 2,2.5; 0,0" dur="3.4s" repeatCount="indefinite" />
         </path>
-        
         <path d="M 15,-6 L 21,-2 L 18,1 L 26,6" fill="none" stroke="#f43f5e" stroke-width="1.5" stroke-linecap="round">
           <animate attributeName="opacity" values="0.2;1;0.35;0.9;0.2" dur="2.2s" repeatCount="indefinite" />
         </path>
@@ -100,25 +104,109 @@
   </defs>
 
   
-  <rect x="1" y="1" width="898" height="258" rx="14" fill="url(#abyssBg)" stroke="url(#frameBorder)" stroke-width="1.3" />
-  <rect x="1" y="1" width="898" height="258" rx="14" fill="url(#abyssGrid)" />
+  <rect x="1" y="1" width="898" height="268" rx="14" fill="url(#abyssBg)" stroke="url(#frameBorder)" stroke-width="1.3" />
+  <rect x="1" y="1" width="898" height="268" rx="14" fill="url(#abyssGrid)" />
 
   
-  <ellipse cx="450" cy="135" rx="280" ry="115" fill="url(#coreGlow)" />
+  <ellipse cx="450" cy="138" rx="295" ry="120" fill="url(#coreGlow)" />
 
   
   
   
-  <g opacity="0.34">
+  <g fill="none" stroke="#22d3ee" stroke-opacity="0.14" stroke-width="1">
     
-    <path d="M 20,255 Q 75,180 155,145 Q 100,192 95,255 Z" fill="#071a30" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1" />
-    <path d="M 95,255 Q 145,195 225,182 Q 168,215 162,255 Z" fill="#061629" stroke="#22d3ee" stroke-opacity="0.28" stroke-width="1" />
-    <path d="M 15,85 Q 95,112 178,128 Q 92,126 15,142 Z" fill="#07182b" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="0.9" />
+    <path d="M 0,58 Q 95,88 110,138 T 18,225" />
+    <path d="M 0,74 Q 78,98 92,138 T 12,210" stroke-dasharray="6 4" />
+    <path d="M 0,92 Q 58,110 72,138 T 8,192" />
+    
+    <path d="M 900,58 Q 805,88 790,138 T 882,225" />
+    <path d="M 900,74 Q 822,98 808,138 T 888,210" stroke-dasharray="6 4" />
+    <path d="M 900,92 Q 842,110 828,138 T 892,192" />
+  </g>
+
+  
+  <g opacity="0.22">
+    
+    <g transform="translate(242, 62)">
+      <animateTransform attributeName="transform" type="translate" values="242,62; 242,54; 242,62" dur="6s" repeatCount="indefinite" />
+      <path d="M -14,0 C -14,-13 14,-13 14,0 C 7,-3 -7,-3 -14,0 Z" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1" />
+      <path d="M -8,0 Q -11,11 -7,21 M 0,-1 Q 2,12 -1,24 M 8,0 Q 11,11 7,21" fill="none" stroke="#7dd3fc" stroke-width="0.8" />
+    </g>
+    
+    <g transform="translate(658, 66)">
+      <animateTransform attributeName="transform" type="translate" values="658,66; 658,58; 658,66" dur="7s" repeatCount="indefinite" />
+      <path d="M -13,0 C -13,-12 13,-12 13,0 C 6,-3 -6,-3 -13,0 Z" fill="#0c4a6e" stroke="#22d3ee" stroke-width="1" />
+      <path d="M -7,0 Q -10,10 -6,20 M 0,-1 Q -2,11 1,22 M 7,0 Q 10,10 6,20" fill="none" stroke="#a5f3fc" stroke-width="0.8" />
+    </g>
+  </g>
+
+  
+  <g opacity="0.32">
+    <path d="M 20,266 Q 75,188 155,152 Q 100,200 95,266 Z" fill="#071a30" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1" />
+    <path d="M 880,266 Q 825,188 745,152 Q 800,200 805,266 Z" fill="#071a30" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1" />
+  </g>
+
+  
+  
+  
+  <g opacity="0.88">
+    <line x1="48" y1="126" x2="88" y2="112" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.2" marker-end="url(#satArrow)" />
+    <line x1="48" y1="138" x2="88" y2="156" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.2" marker-end="url(#satArrow)" />
+    <line x1="112" y1="112" x2="144" y2="128" stroke="#f43f5e" stroke-opacity="0.7" stroke-width="1.2" marker-end="url(#conflictArrow)" />
+    <line x1="112" y1="156" x2="144" y2="140" stroke="#f43f5e" stroke-opacity="0.7" stroke-width="1.2" marker-end="url(#conflictArrow)" />
+    
+    <path d="M 154,146 Q 98,194 40,152" fill="none" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1.1" stroke-dasharray="3 3">
+      <animate attributeName="stroke-dashoffset" from="12" to="0" dur="2.4s" repeatCount="indefinite" />
+    </path>
+
+    <circle cx="36" cy="132" r="11.5" fill="#061427" stroke="#38bdf8" stroke-width="1.3" />
+    <text x="36" y="135.5" text-anchor="middle" fill="#e0f2fe" font-family="Consolas, monospace" font-size="9.5">x₁</text>
+
+    <circle cx="100" cy="107" r="11.5" fill="#061427" stroke="#22d3ee" stroke-width="1.3" />
+    <text x="100" y="110.5" text-anchor="middle" fill="#cffafe" font-family="Consolas, monospace" font-size="9.5">¬x₂</text>
+
+    <circle cx="100" cy="161" r="11.5" fill="#061427" stroke="#38bdf8" stroke-width="1.3" />
+    <text x="100" y="164.5" text-anchor="middle" fill="#e0f2fe" font-family="Consolas, monospace" font-size="9.5">x₃</text>
+
+    <circle cx="155" cy="134" r="11.5" fill="#240916" stroke="#f43f5e" stroke-width="1.5" />
+    <text x="155" y="138" text-anchor="middle" fill="#fda4af" font-family="Consolas, monospace" font-size="11" font-weight="bold">⊥</text>
+  </g>
+
+  
+  
+  
+  <g opacity="0.88">
+    
+    <path d="M 744,114 L 774,114 L 788,126 L 808,126" fill="none" stroke="#38bdf8" stroke-opacity="0.65" stroke-width="1.2" stroke-dasharray="4 3">
+      <animate attributeName="stroke-dashoffset" from="14" to="0" dur="2s" repeatCount="indefinite" />
+    </path>
+    <path d="M 744,154 L 774,154 L 788,142 L 808,142" fill="none" stroke="#22d3ee" stroke-opacity="0.65" stroke-width="1.2" stroke-dasharray="4 3">
+      <animate attributeName="stroke-dashoffset" from="0" to="14" dur="2s" repeatCount="indefinite" />
+    </path>
 
     
-    <path d="M 880,255 Q 825,180 745,145 Q 800,192 805,255 Z" fill="#071a30" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1" />
-    <path d="M 805,255 Q 755,195 675,182 Q 732,215 738,255 Z" fill="#061629" stroke="#22d3ee" stroke-opacity="0.28" stroke-width="1" />
-    <path d="M 885,85 Q 805,112 722,128 Q 808,126 885,142 Z" fill="#07182b" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="0.9" />
+    <rect x="706" y="102" width="38" height="22" rx="4" fill="#061427" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="725" y="116" text-anchor="middle" fill="#7dd3fc" font-family="Consolas, monospace" font-size="8.5" font-weight="bold">SQL</text>
+
+    <rect x="706" y="143" width="38" height="22" rx="4" fill="#061427" stroke="#22d3ee" stroke-width="1.2" />
+    <text x="725" y="157" text-anchor="middle" fill="#a5f3fc" font-family="Consolas, monospace" font-size="8.5" font-weight="bold">SYS</text>
+
+    
+    <g transform="translate(810, 104)">
+      <path d="M 0,9 L 0,54 A 25,8.5 0 0 0 50,54 L 50,9 Z" fill="#061427" stroke="#22d3ee" stroke-width="1.3" />
+      <path d="M 0,24 A 25,8.5 0 0 0 50,24" fill="none" stroke="#22d3ee" stroke-opacity="0.65" stroke-width="1.1" />
+      <path d="M 0,39 A 25,8.5 0 0 0 50,39" fill="none" stroke="#22d3ee" stroke-opacity="0.65" stroke-width="1.1" />
+      <ellipse cx="25" cy="9" rx="25" ry="8.5" fill="#0a233f" stroke="#22d3ee" stroke-width="1.3" />
+      <circle cx="10" cy="21" r="1.8" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="10" cy="36" r="1.8" fill="#f43f5e">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="10" cy="51" r="1.8" fill="#22d3ee">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" />
+      </circle>
+    </g>
   </g>
 
   
@@ -126,17 +214,14 @@
     <ellipse cx="450" cy="34" rx="52" ry="16" fill="url(#eyeGlow)">
       <animate attributeName="opacity" values="0.35;0.85;0.35" dur="4s" repeatCount="indefinite" />
     </ellipse>
-    
     <path d="M 418,32 Q 431,27 442,36 Q 431,37.5 418,32 Z" fill="#f43f5e">
       <animate attributeName="opacity" values="0.55;1;0.55" dur="4s" repeatCount="indefinite" />
     </path>
     <path d="M 426,32.5 Q 432,31 437,34.5 Q 432,35 426,32.5 Z" fill="#ffe4e6" />
-    
     <path d="M 482,32 Q 469,27 458,36 Q 469,37.5 482,32 Z" fill="#f43f5e">
       <animate attributeName="opacity" values="0.55;1;0.55" dur="4s" repeatCount="indefinite" />
     </path>
     <path d="M 474,32.5 Q 468,31 463,34.5 Q 468,35 474,32.5 Z" fill="#ffe4e6" />
-    
     <polygon points="450,21 453.5,31 450,41 446.5,31" fill="none" stroke="#38bdf8" stroke-opacity="0.65" stroke-width="1.1" />
   </g>
 
@@ -144,100 +229,92 @@
   
   
   <g opacity="0.26">
-    
     <g>
-      <animateTransform attributeName="transform" type="rotate" from="0 450 132" to="360 450 132" dur="70s" repeatCount="indefinite" />
-      <circle cx="450" cy="132" r="108" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="14 6 3 6" />
-      <circle cx="450" cy="132" r="99" fill="none" stroke="#94a3b8" stroke-width="0.7" stroke-dasharray="2 8" />
-      
-      <text x="450" y="31" text-anchor="middle" fill="#7dd3fc" font-family="Consolas, monospace" font-size="10">∀</text>
-      <text x="551" y="136" text-anchor="middle" fill="#7dd3fc" font-family="Consolas, monospace" font-size="10">⊢</text>
-      <text x="450" y="239" text-anchor="middle" fill="#f43f5e" font-family="Consolas, monospace" font-size="10">⊥</text>
-      <text x="349" y="136" text-anchor="middle" fill="#7dd3fc" font-family="Consolas, monospace" font-size="10">¬</text>
+      <animateTransform attributeName="transform" type="rotate" from="0 450 136" to="360 450 136" dur="70s" repeatCount="indefinite" />
+      <circle cx="450" cy="136" r="108" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="14 6 3 6" />
+      <circle cx="450" cy="136" r="99" fill="none" stroke="#94a3b8" stroke-width="0.7" stroke-dasharray="2 8" />
+      <text x="450" y="35" text-anchor="middle" fill="#7dd3fc" font-family="Consolas, monospace" font-size="10">∀</text>
+      <text x="551" y="140" text-anchor="middle" fill="#7dd3fc" font-family="Consolas, monospace" font-size="10">⊢</text>
+      <text x="450" y="243" text-anchor="middle" fill="#f43f5e" font-family="Consolas, monospace" font-size="10">⊥</text>
+      <text x="349" y="140" text-anchor="middle" fill="#7dd3fc" font-family="Consolas, monospace" font-size="10">¬</text>
     </g>
-
-    
     <g>
-      <animateTransform attributeName="transform" type="rotate" from="360 450 132" to="0 450 132" dur="50s" repeatCount="indefinite" />
-      <polygon points="450,48 509,73 534,132 509,191 450,216 391,191 366,132 391,73" fill="none" stroke="#22d3ee" stroke-width="1" stroke-dasharray="18 10" />
-      <circle cx="450" cy="132" r="72" fill="none" stroke="#f43f5e" stroke-opacity="0.55" stroke-width="0.9" stroke-dasharray="6 14" />
+      <animateTransform attributeName="transform" type="rotate" from="360 450 136" to="0 450 136" dur="50s" repeatCount="indefinite" />
+      <polygon points="450,52 509,77 534,136 509,195 450,220 391,195 366,136 391,77" fill="none" stroke="#22d3ee" stroke-width="1" stroke-dasharray="18 10" />
+      <circle cx="450" cy="136" r="72" fill="none" stroke="#f43f5e" stroke-opacity="0.55" stroke-width="0.9" stroke-dasharray="6 14" />
     </g>
   </g>
 
   
-  
-  
   <use href="#broken-chain" transform="translate(-8, 24) rotate(21)" />
-  <use href="#broken-chain" transform="translate(-8, 236) rotate(-21)" />
+  <use href="#broken-chain" transform="translate(-8, 244) rotate(-21)" />
   <use href="#broken-chain" transform="translate(908, 24) scale(-1, 1) rotate(21)" />
-  <use href="#broken-chain" transform="translate(908, 236) scale(-1, 1) rotate(-21)" />
+  <use href="#broken-chain" transform="translate(908, 244) scale(-1, 1) rotate(-21)" />
 
   
   <path d="M 14,34 L 14,14 L 34,14" fill="none" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1.3" />
   <path d="M 866,14 L 886,14 L 886,34" fill="none" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1.3" />
-  <path d="M 14,226 L 14,246 L 34,246" fill="none" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1.3" />
-  <path d="M 866,246 L 886,246 L 886,226" fill="none" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1.3" />
+  <path d="M 14,236 L 14,256 L 34,256" fill="none" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1.3" />
+  <path d="M 866,256 L 886,256 L 886,236" fill="none" stroke="#94a3b8" stroke-opacity="0.45" stroke-width="1.3" />
+
+  <text x="24" y="248" fill="#64748b" font-family="Consolas, monospace" font-size="9.5" letter-spacing="1.1">
+    SAT_ENGINE // CNF·MAXSAT·CDCL
+  </text>
+  <text x="876" y="248" text-anchor="end" fill="#64748b" font-family="Consolas, monospace" font-size="9.5" letter-spacing="1.1">
+    INFO_SYS // SCHEMA·DATA·ABYSS
+  </text>
 
   
-  <text x="24" y="238" fill="#64748b" font-family="Consolas, monospace" font-size="9.5" letter-spacing="1.2">
-    SEAL_ID // CNF·MAXSAT·CDCL
-  </text>
-  <text x="876" y="238" text-anchor="end" fill="#64748b" font-family="Consolas, monospace" font-size="9.5" letter-spacing="1.2">
-    DEPTH // ABYSSAL_LOGIC
-  </text>
-
-  
-  
-  
-  <text x="450" y="76" text-anchor="middle" fill="#7dd3fc" fill-opacity="0.82" font-family="Consolas, monospace" font-size="10.5" letter-spacing="3.2">
+  <text x="450" y="78" text-anchor="middle" fill="#7dd3fc" fill-opacity="0.85" font-family="Consolas, monospace" font-size="10.5" letter-spacing="3.2">
     ◈ UNSEALING HARD CONSTRAINTS ◈
   </text>
 
-  <text x="450" y="128" text-anchor="middle" fill="url(#titleGrad)" font-family="Segoe UI, Ubuntu, -apple-system, sans-serif" font-size="45" font-weight="800" letter-spacing="4">
+  <text x="450" y="130" text-anchor="middle" fill="url(#titleGrad)" font-family="Segoe UI, Ubuntu, -apple-system, sans-serif" font-size="45" font-weight="800" letter-spacing="4">
     THE DUNG BUI
   </text>
 
-  
-  <line x1="275" y1="145" x2="625" y2="145" stroke="url(#sealLine)" stroke-width="1.8" />
-  <polygon points="450,138 457,145 450,152 443,145" fill="#061224" stroke="#f43f5e" stroke-width="1.5" />
-  <circle cx="450" cy="145" r="2.2" fill="#38bdf8" />
+  <line x1="275" y1="147" x2="625" y2="147" stroke="url(#sealLine)" stroke-width="1.8" />
+  <polygon points="450,140 457,147 450,154 443,147" fill="#061224" stroke="#f43f5e" stroke-width="1.5" />
+  <circle cx="450" cy="147" r="2.2" fill="#38bdf8" />
 
-  
-  <text x="450" y="174" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, Ubuntu, -apple-system, sans-serif" font-size="13.5" font-weight="500" letter-spacing="0.6">
+  <text x="450" y="176" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, Ubuntu, -apple-system, sans-serif" font-size="13.5" font-weight="500" letter-spacing="0.6">
     SAT &amp; Scheduling Researcher  ·  Information Systems @ VNU-UET
   </text>
 
-  
-  <polygon points="342,193 352,193 356,193 544,193 554,193 562,204 554,215 346,215 338,204" fill="#071526" fill-opacity="0.9" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.1" />
-  <text x="450" y="207.5" text-anchor="middle" fill="#94a3b8" font-family="Consolas, monospace" font-size="10" letter-spacing="1.4">
+  <polygon points="338,195 562,195 570,206 562,217 338,217 330,206" fill="#071526" fill-opacity="0.9" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.1" />
+  <text x="450" y="209.5" text-anchor="middle" fill="#94a3b8" font-family="Consolas, monospace" font-size="10" letter-spacing="1.4">
     SAT LAB @ VNU-UET  //  <tspan fill="#fda4af">UNCHAINED</tspan>
   </text>
 
   
-  
-  
-  <g fill="#38bdf8">
-    <circle cx="235" cy="220" r="1.4" opacity="0.5">
-      <animate attributeName="cy" values="240;70;240" dur="9s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0;0.75;0" dur="9s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="670" cy="210" r="1.5" opacity="0.5">
-      <animate attributeName="cy" values="245;65;245" dur="11s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0;0.7;0" dur="11s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="315" cy="235" r="1.2" fill="#f43f5e" opacity="0.5">
-      <animate attributeName="cy" values="245;95;245" dur="8s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0;0.85;0" dur="8s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="595" cy="230" r="1.2" fill="#f43f5e" opacity="0.5">
-      <animate attributeName="cy" values="245;85;245" dur="10s" repeatCount="indefinite" />
+  <g>
+    <circle cx="205" cy="230" r="2.2" fill="none" stroke="#7dd3fc" stroke-opacity="0.6" stroke-width="0.9">
+      <animate attributeName="cy" values="255;45;255" dur="10s" repeatCount="indefinite" />
       <animate attributeName="opacity" values="0;0.8;0" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="695" cy="220" r="2.5" fill="none" stroke="#22d3ee" stroke-opacity="0.6" stroke-width="0.9">
+      <animate attributeName="cy" values="255;50;255" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.75;0" dur="12s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="290" cy="240" r="1.4" fill="#f43f5e">
+      <animate attributeName="cy" values="258;85;258" dur="8.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.85;0" dur="8.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="610" cy="235" r="1.4" fill="#f43f5e">
+      <animate attributeName="cy" values="258;80;258" dur="9.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.85;0" dur="9.5s" repeatCount="indefinite" />
     </circle>
   </g>
 
-  <path fill="#38bdf8" fill-opacity="0.07" d="M0,242 Q150,231 300,242 T600,242 T900,242 L900,260 L0,260 Z">
-    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0,242 Q150,231 300,242 T600,242 T900,242 L900,260 L0,260 Z;
-              M0,242 Q150,252 300,242 T600,242 T900,242 L900,260 L0,260 Z;
-              M0,242 Q150,231 300,242 T600,242 T900,242 L900,260 L0,260 Z" />
+  
+  <path fill="#0ea5e9" fill-opacity="0.08" d="M0,242 Q150,230 300,242 T600,242 T900,242 L900,270 L0,270 Z">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0,242 Q150,230 300,242 T600,242 T900,242 L900,270 L0,270 Z;
+              M0,242 Q150,254 300,242 T600,242 T900,242 L900,270 L0,270 Z;
+              M0,242 Q150,230 300,242 T600,242 T900,242 L900,270 L0,270 Z" />
+  </path>
+  <path fill="#38bdf8" fill-opacity="0.11" d="M0,252 Q225,263 450,250 T900,252 L900,270 L0,270 Z">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0,252 Q225,263 450,250 T900,252 L900,270 L0,270 Z;
+              M0,252 Q225,241 450,255 T900,252 L900,270 L0,270 Z;
+              M0,252 Q225,263 450,250 T900,252 L900,270 L0,270 Z" />
   </path>
 </svg>

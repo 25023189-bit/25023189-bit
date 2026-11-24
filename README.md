@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg?v=3" style="width:100%; height:auto;" alt="The Dung Bui — Abyssal Logic Banner"/>
+  <img src="./banner.svg?v=4" style="width:100%; height:auto;" alt="The Dung Bui — Abyssal Logic Banner"/>
 </div>
 
 <br/>
@@ -32,7 +32,7 @@
 </div>
 
 <div align="center">
-  <img src="./chain.svg?v=3" style="width:100%; height:auto;" alt="Chain Divider"/>
+  <img src="./chain.svg?v=4" style="width:100%; height:auto;" alt="Chain Divider"/>
 </div>
 
 ## 🔱 Abyssal Dossier
@@ -50,7 +50,7 @@ principle:   "Constraints bind the search space; learned clauses unlock it."</co
 - 📬 Reach out via **dungbt.research@gmail.com** or follow publications on **[Google Scholar](https://scholar.google.com/citations?user=FVmThvgAAAAJ&hl=vi)**.
 
 <div align="center">
-  <img src="./chain.svg?v=3" style="width:100%; height:auto;" alt="Chain Divider"/>
+  <img src="./chain.svg?v=4" style="width:100%; height:auto;" alt="Chain Divider"/>
 </div>
 
 ## 🧭 Arsenal & Solvers
@@ -68,7 +68,7 @@ principle:   "Constraints bind the search space; learned clauses unlock it."</co
 </div>
 
 <div align="center">
-  <img src="./chain.svg?v=3" style="width:100%; height:auto;" alt="Chain Divider"/>
+  <img src="./chain.svg?v=4" style="width:100%; height:auto;" alt="Chain Divider"/>
 </div>
 
 ## 📜 Publications & Technical Reports
@@ -89,7 +89,7 @@ principle:   "Constraints bind the search space; learned clauses unlock it."</co
 </table>
 
 <div align="center">
-  <img src="./chain.svg?v=3" style="width:100%; height:auto;" alt="Chain Divider"/>
+  <img src="./chain.svg?v=4" style="width:100%; height:auto;" alt="Chain Divider"/>
 </div>
 
 ## ⚓ Unchained Repositories
@@ -132,5 +132,5 @@ principle:   "Constraints bind the search space; learned clauses unlock it."</co
 <br/>
 
 <div align="center">
-  <img src="./abyss-footer.svg?v=1" style="width:100%; height:auto;" alt="Abyssal Logic Footer Banner"/>
+  <img src="./abyss-footer.svg?v=2" style="width:100%; height:auto;" alt="Abyssal Logic Footer Banner"/>
 </div>
